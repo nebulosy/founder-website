@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    cursor: default;
+}
+
+body{
+    background-image: linear-gradient(#060A0D, rgba(6, 10, 13, 0.94));
+    background-color: rgba(6, 10, 13, 0.94);
+    background-size: cover;
+}
+
+#logo-header{
+    width: 8%;
+    padding-top: 7vh;
+    padding-left: 5%;
+    position: absolute;
+}
+
+#logo-header:hover{
+    animation-duration: 1s;
+    animation-name: flutuation;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+
+}
+
+@keyframes flutuation {
+    from{
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        -moz-transition: 0.5s;
+        transition: 0.5s;
+    }
+    to{
+        -webkit-transform: translateY(-0.6vh);
+        -moz-transform: translateY(-0.6vh);
+        -ms-transform: translateY(-0.6vh);
+        -o-transform: translateY(-0.6vh);
+        transform: translateY(-0.6vh);
+    }
+}
+
+#title-and-menu{
+    display: block;
+    float: right;
+    padding-right: 10vw;
+    padding-top: 7vh;
+}
+
+#founder-name{
+    color: #03A61C;
+    font-family: 'Poppins', sans-serif;
+}
+
+#name{
+    font-weight: 200;
+    display: block;
+}
+
+#last-name{
+    font-weight: bold;
+    display: block;
+}
+
+
+#menu ul{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3em;
+    line-height: 36px;
+    display: flex;
+    letter-spacing: 0.055em;
+    color: #00FF78;
+
+    text-transform: uppercase;
+
+    list-style-type: none;
+
+}
+
+#menu ul li{
+    padding: 10px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#listNavAbout:link, #menu ul a:link{
+    color: #00FF78;
+    text-decoration: none;
+}
+
+#listNavAbout:visited, #menu ul a:visited{
+    color: #00FF78;
+    text-decoration: none;
+}
+
+#listNavAbout:hover, #menu ul a:hover{
+    color: #F000DB;
+    text-decoration: none;
+
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in
+}
+
+#listNavAbout:active, #menu ul a:active{
+    color: #038543;
+    text-decoration: none;
+}
+
+#office{
+    display: flex;
+    float: left;
+    color: white;
+    padding-top: 88vh;
+    padding-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+#principal-image img{
+    display: block;
+    margin-right: auto;
+    margin-left: 23%;
+    width: 46%;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+
+}
+
+#green-triangle{
+    animation-duration: 6s;
+    animation-name: greenTriangle;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+}
+
+@keyframes greenTriangle{
+    from{
+        -webkit-filter: drop-shadow(5px 5px 30px rgba(3, 166, 28, 1));
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        -moz-transition: 0.5s;
+        transition: 0.5s;
+    }
+    to{
+        -webkit-filter: drop-shadow(2px 2px 10px rgba(3, 166, 28, 0.4));
+        -webkit-transform: translateY(-4vh);
+        -moz-transform: translateY(-4vh);
+        -ms-transform: translateY(-4vh);
+        -o-transform: translateY(-4vh);
+        transform: translateY(-4vh);
+    }
+}
+
+#about-text{
+    display: none;
+    color: white;
+    float: right;
+    width: 40vh;
+    height: 15vw;
+    margin-top: 25vh;
+    font-size: 1.2em;
+    overflow: visible;
+}
+
+#about-text p {
+    background-color: #038543;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
